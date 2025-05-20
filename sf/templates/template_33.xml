@@ -1,0 +1,167 @@
+<!-- Template Factura Electrónica (33) -->
+<DTE version="1.0">
+  <Documento ID="LibreDTE_T33F1474">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>1474</Folio>
+        <FchEmis>2025-04-22</FchEmis>
+        <TpoTranVenta>1</TpoTranVenta>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76146267-9</RUTEmisor>
+        <RznSoc>Ingenieria de Sistemas ArticLYNX SpA</RznSoc>
+        <GiroEmis>Servicios Informaticos</GiroEmis>
+        <Telefono>+56 9 74309000</Telefono>
+        <CorreoEmisor>sii@articlynx.com</CorreoEmisor>
+        <Acteco>620200</Acteco>
+        <DirOrigen>Canto del Valle 1951</DirOrigen>
+        <CmnaOrigen>Concepcion</CmnaOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>61607100-9</RUTRecep>
+        <RznSocRecep>SERVICIO DE SALUD CONCEPCION</RznSocRecep>
+        <GiroRecep>ACTIVIDADES DE LA ADMINISTRACION PUBLICA</GiroRecep>
+        <CorreoRecep>pablo.moena@ssconcepcion.cl</CorreoRecep>
+        <DirRecep>O HIGGINS 297 CONCEPCION</DirRecep>
+        <CmnaRecep>Concepción</CmnaRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>22765000</MntNeto>
+        <TasaIVA>19</TasaIVA>
+        <IVA>4325350</IVA>
+        <MntTotal>27090350</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT1</TpoCodigo>
+        <VlrCodigo>HITO-1282</VlrCodigo>
+      </CdgItem>
+      <NmbItem>CONSULTORIA</NmbItem>
+      <DscItem>Consultoria Adopción usuaria, Cuota 7. Periodo 16-febrero-2025 a 15-marzo-2025</DscItem>
+      <QtyItem>1</QtyItem>
+      <PrcItem>14687000</PrcItem>
+      <MontoItem>14687000</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT1</TpoCodigo>
+        <VlrCodigo>HITO-1270</VlrCodigo>
+      </CdgItem>
+      <NmbItem>CONSULTORIA</NmbItem>
+      <DscItem>Servicio de Mesa de Ayuda, Cuota 7. Periodo 16-febrero-2025 a 15-marzo-2025</DscItem>
+      <QtyItem>1</QtyItem>
+      <PrcItem>8078000</PrcItem>
+      <MontoItem>8078000</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>801</TpoDocRef>
+      <FolioRef>1057432-433-SE24</FolioRef>
+      <FchRef>2025-04-22</FchRef>
+      <RazonRef>OC</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+      <DD>
+        <RE>76146267-9</RE>
+        <TD>33</TD>
+        <F>1474</F>
+        <FE>2025-04-22</FE>
+        <RR>61607100-9</RR>
+        <RSR>SERVICIO DE SALUD CONCEPCION</RSR>
+        <MNT>27090350</MNT>
+        <IT1>CONSULTORIA</IT1>
+        <CAF version="1.0">
+          <DA>
+            <RE>76146267-9</RE>
+            <RS>INGENIERIA DE SISTEMAS ARTICLYNX SPA</RS>
+            <TD>33</TD>
+            <RNG><D>1435</D><H>1494</H></RNG>
+            <FA>2024-12-19</FA>
+            <RSAPK>
+              <M>w+JERpMYWa1g5jmtwfXaCkJPeHnbFa421jYSOaqqjFSMulMKV3DAiaC3zweuAWCooupAgnKT0Mw8SbTNhs676w==</M>
+              <E>Aw==</E>
+            </RSAPK>
+            <IDK>300</IDK>
+          </DA>
+          <FRMA algoritmo="SHA1withRSA">igfhOTnitQReT8We1wqVSFwO5rFUFZ3eIXdVS3wg7lBLk9DaKpl9k7D9nYFQS0vdWcPUWluorDTiqOsVBkSrQw==</FRMA>
+        </CAF>
+        <TSTED>2025-04-22T00:22:56</TSTED>
+      </DD>
+      <FRMT algoritmo="SHA1withRSA">efS+wBDGmP7WH9rjzG4/ANvACzap05E3QB8xTcP6F2+wlNr0aXzfOh1otsVQqr7BT5ewB6ea/leh6lnl+MNv4A==</FRMT>
+    </TED>
+    <TmstFirma>2025-04-22T00:22:56</TmstFirma>
+  </Documento>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <Reference URI="#LibreDTE_T33F1474">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <DigestValue>+8Y+V8iAq5kpiB5s0NV5EtRGZH0=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>BU/8WgnI+xrfvGGb90bV005QxJvnKMX8KeuMbU5eg2Qah7XHSCaUkifBPyptlJqf
+8FqWe3SxkQqf+w3atbMIzosbPj4306JzmHb1DRPOuQhE0NEPWjqnd/1PTqKKtUmp
+li7L2MdXDfd5ZSslSujWjaPFOtmHIV+oEqEDD8M3QUlVLMYAeRdZRfj2GOf6kPcD
+TUdtO4Zf2bxEn7VJPOH1TmO5JTJ5Ca+HIxdPJB56OhAvggnyhBvhDVsuQvcSTjJU
+DfKQtWIY6wEvd/Q7zfVZISSHml1f31ZuSO2K05RScZ2ZboAbdBY3vLRoAvIH+hsj
+rIuBu931ZQby2bTNktthog==</SignatureValue>
+    <KeyInfo>
+      <KeyValue>
+        <RSAKeyValue>
+          <Modulus>lY+/uW87DfrXHIqsThHAHyvCCtKEXQsRiFIZNyJxTSuVxkCHlwDc5kQV3qov33Gu
+U3P8khCQnxwdLHsT/dtAK37+W6bZQsVFyAxrHZdcMUyqCRiUsjubLwyNb0Nvb5Ov
++g5XavmltqrvJlN9KkJbyVoSlAcvOV9coO2dmAy7i4YMndHSemzHg3/dGck2hZO5
+QsffTMaznJ1vpPlCD15w0Bg9kkEcOrCxOJtyNKAZO9xwIYYD5gYxnixHDEkOtdwh
+R9GGMZgBg/nZT5JyPhtC0Zy01gNdm0ahCYHXrcES09AUhS+QrQyxgBhu0B0uhFwJ
+uz/2zkN80rEp4Qg4Agub1Q==</Modulus>
+          <Exponent>AQAB</Exponent>
+        </RSAKeyValue>
+      </KeyValue>
+      <X509Data>
+        <X509Certificate>MIIGejCCBWKgAwIBAgIDBIcKMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJD
+TDEYMBYGA1UEChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29t
+IEF1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhIENsYXNlIDMgUGVyc29uYSBOYXR1cmFs
+IC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9AYWNlcHRhLmNvbTETMBEGA1UEBRMK
+OTY5MTkwNTAtODAeFw0yNDA4MDkyMjE1MzZaFw0yNzA4MDkyMjE1MzZaMIGKMQsw
+CQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSUwIwYDVQQDExxD
+TEFVRElPIFJPRFJJR08gQlVTVE9TIEJSQVZPMSUwIwYJKoZIhvcNAQkBFhZDQlVT
+VE9TQkBBUlRJQ0xZTlguQ09NMRMwEQYDVQQFEwoxMTk1NTAzOC02MIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlY+/uW87DfrXHIqsThHAHyvCCtKEXQsR
+iFIZNyJxTSuVxkCHlwDc5kQV3qov33GuU3P8khCQnxwdLHsT/dtAK37+W6bZQsVF
+yAxrHZdcMUyqCRiUsjubLwyNb0Nvb5Ov+g5XavmltqrvJlN9KkJbyVoSlAcvOV9c
+oO2dmAy7i4YMndHSemzHg3/dGck2hZO5QsffTMaznJ1vpPlCD15w0Bg9kkEcOrCx
+OJtyNKAZO9xwIYYD5gYxnixHDEkOtdwhR9GGMZgBg/nZT5JyPhtC0Zy01gNdm0ah
+CYHXrcES09AUhS+QrQyxgBhu0B0uhFwJuz/2zkN80rEp4Qg4Agub1QIDAQABo4IC
+yTCCAsUwHwYDVR0jBBgwFoAUqv29xek3TfaZTVeOwXEa+evDBuMwHQYDVR0OBBYE
+FDgqqdlOCPlQiTtDGcIH55AFR9K0MAsGA1UdDwQEAwIE8DAdBgNVHSUEFjAUBggr
+BgEFBQcDAgYIKwYBBQUHAwQwEQYJYIZIAYb4QgEBBAQDAgWgMIH6BgNVHSAEgfIw
+ge8wgewGCCsGAQQBtWsCMIHfMDEGCCsGAQUFBwIBFiVodHRwczovL2FjZzQuYWNl
+cHRhLmNvbS9DUFMtQWNlcHRhY29tMIGpBggrBgEFBQcCAjCBnDAWFg9BY2VwdGEu
+Y29tIFMuQS4wAwIBAhqBgUVsIHRpdHVsYXIgaGEgc2lkbyB2YWxpZGFkbyBlbiBm
+b3JtYSBwcmVzZW5jaWFsLCBxdWVkYW5kbyBoYWJpbGl0YWRvIGVsIENlcnRpZmlj
+YWRvIHBhcmEgdXNvIHRyaWJ1dGFyaW8sIHBhZ29zLCBjb21lcmNpbyB5IG90cm9z
+LjBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2OTE5MDUwLTigJAYIKwYBBQUH
+CAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5mb0BhY2VwdGEuY29tMGEG
+A1UdEQRaMFigGAYIKwYBBAHBAQGgDBYKMTE5NTUwMzgtNqAkBggrBgEFBQcIA6AY
+MBYMCjExOTU1MDM4LTYGCCsGAQQBwQECgRZDQlVTVE9TQkBBUlRJQ0xZTlguQ09N
+MEcGCCsGAQUFBwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0
+YS5jb20vYWNnNC9vY3NwL0NsYXNlMy1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRw
+czovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L2NybC9DbGFzZTMtRzQuY3JsMA0GCSqG
+SIb3DQEBCwUAA4IBAQAH+d5RAGwcuOpN+AkUkBnEOR3LDyv2/RHXZVArYK8PKQGk
+gzRe41ijFPwczBrYUKwSJP5RHGFxlumhbZpyO3xTngB43kOIJmcrJeXQvazw3kxv
+DTQE3v0ZHa1ZCqEsY8I7Piti44MTu5ktj/4yXIs3HYWA6oqQyBlaAuEVxPdWzG6N
+LBh1sRJWam7+cjZdlCp2zE3W+YUASx8GjDQ2ubl7ucQ+3J7J1xzDBuscOvjV/uVD
+E9UKcmSYEDwIMkLWZBT7b8PPEewNzfH9BoTr8Eqs9vTk/wxtHdCdN+YR2fudGN+O
+ekpCXG405ukvA5zBD5oAuCxShHIr9fzSYSBZSK3R</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+</DTE>
