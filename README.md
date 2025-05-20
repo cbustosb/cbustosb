@@ -28,6 +28,64 @@ sf/
 
 Todos los scripts dejan registro de su ejecución en `sf/logs/`.
 
+### Ejemplo de JSON para `create_dte.py`
+
+```json
+{
+    "IdDoc": {
+        "TipoDTE": "33",
+        "Folio": 1844,
+        "FchEmis": "2025-05-16"
+    },
+    "Receptor": {
+        "RUTRecep": "61607100-9",
+        "RznSocRecep": "SERVICIO DE SALUD CONCEPCION",
+        "GiroRecep": "ACTIVIDADES DE LA ADMINISTRACION PUBLICA",
+        "Contacto": "Felipe Vargas",
+        "CorreoRecep": "fvargas@ssconcepcion.cl",
+        "DirRecep": "O HIGGINS 297 CONCEPCION",
+        "CmnaRecep": "Concepcion"
+    },
+    "Totales": {
+        "MntNeto": 22765000,
+        "MntExe": 0,
+        "TasaIVA": 19,
+        "IVA": 4325350,
+        "MntTotal": 27090350
+    },
+    "Detalle": [
+        {
+            "NumLinea": 1,
+            "CodItem": "HITO-1282",
+            "NombreItem": "CONSULTORIA",
+            "DescripcionItem": "Consultoria Adopcion usuaria, Cuota 7. Periodo 16-febrero-2025 a 15-marzo-2025",
+            "Cantidad": "1",
+            "PrecioU": "14687000",
+            "SubTotal": "14687000"
+        },
+        {
+            "NumLinea": 2,
+            "CodItem": "HITO-1270",
+            "NombreItem": "CONSULTORIA",
+            "DescripcionItem": "Servicio de Mesa de Ayuda, Cuota 7. Periodo 16-febrero-2025 a 15-marzo-2025",
+            "Cantidad": "1",
+            "PrecioU": "8078000",
+            "SubTotal": "8078000"
+        }
+    ],
+    "Referencias": [
+        {
+            "NumLinea": "2",
+            "TipoDocRef": "801",
+            "FolioRef": "1057432-433-SE24",
+            "FchRef": "2025-03-20",
+            "RazonRef": "OC"
+        }
+    ]
+}
+```
+
+
 ### Ejemplo de uso
 
 ```
